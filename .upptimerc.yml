@@ -3,7 +3,7 @@ repo: ViewPAM
 
 sites:
   - name: PAM - Server
-    url: ${{HEALTH_URL}}
+    url: https://zeus.fiberlux.pe/health
 
 status-website:
   name: Estado del sistema
