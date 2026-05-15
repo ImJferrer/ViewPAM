@@ -3,7 +3,7 @@ repo: ViewPAM
 
 sites:
   - name: PAM - Server
-    url: $secrets.HEALTH_URL
+    url: ${{HEALTH_URL}}
 
 status-website:
   name: Estado del sistema
