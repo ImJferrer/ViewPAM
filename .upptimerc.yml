@@ -1,9 +1,9 @@
 owner: ImJferrer
-repo: ViewPAM
+repo: /ViewPAM
 
 sites:
   - name: PAM - Server
-    url: https://zeus.fiberlux.pe/healt
+    url: https://zeus.fiberlux.e/health
 
 status-website:
   name: Estado del sistema
