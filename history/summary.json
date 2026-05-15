@@ -1,22 +1,22 @@
 [
   {
     "name": "PAM - Server",
-    "url": "$secrets.HEALTH_URL",
+    "url": "${{HEALTH_URL}}",
     "icon": "https://icons.duckduckgo.com/ip3/null.ico",
     "slug": "pam-server",
     "status": "down",
-    "uptime": "33.25%",
-    "uptimeDay": "33.25%",
-    "uptimeWeek": "33.25%",
-    "uptimeMonth": "33.25%",
-    "uptimeYear": "33.25%",
+    "uptime": "29.07%",
+    "uptimeDay": "29.07%",
+    "uptimeWeek": "29.07%",
+    "uptimeMonth": "29.07%",
+    "uptimeYear": "29.07%",
     "time": 746,
     "timeDay": 746,
     "timeWeek": 746,
     "timeMonth": 746,
     "timeYear": 746,
     "dailyMinutesDown": {
-      "2026-05-15": 23
+      "2026-05-15": 28
     }
   }
 ]
