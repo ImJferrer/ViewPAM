@@ -1,20 +1,20 @@
 [
   {
     "name": "PAM - Server",
-    "url": "https://zeus.fiberlux.pe/health",
+    "url": "https://zeus.fiberlux.pe/PAM",
     "icon": "https://icons.duckduckgo.com/ip3/zeus.fiberlux.pe.ico",
     "slug": "pam-server",
-    "status": "up",
-    "uptime": "30.15%",
-    "uptimeDay": "30.15%",
-    "uptimeWeek": "30.15%",
-    "uptimeMonth": "30.15%",
-    "uptimeYear": "30.15%",
-    "time": 775,
-    "timeDay": 775,
-    "timeWeek": 775,
-    "timeMonth": 775,
-    "timeYear": 775,
+    "status": "down",
+    "uptime": "58.29%",
+    "uptimeDay": "58.29%",
+    "uptimeWeek": "58.29%",
+    "uptimeMonth": "58.29%",
+    "uptimeYear": "58.29%",
+    "time": 764,
+    "timeDay": 764,
+    "timeWeek": 764,
+    "timeMonth": 764,
+    "timeYear": 764,
     "dailyMinutesDown": {
       "2026-05-15": 31
     }
