@@ -5,16 +5,18 @@
     "icon": "https://icons.duckduckgo.com/ip3/zeus.fiberlux.pe.ico",
     "slug": "pam-server",
     "status": "down",
-    "uptime": "100.00%",
-    "uptimeDay": "100.00%",
-    "uptimeWeek": "100.00%",
-    "uptimeMonth": "100.00%",
-    "uptimeYear": "100.00%",
+    "uptime": "84.50%",
+    "uptimeDay": "84.50%",
+    "uptimeWeek": "84.50%",
+    "uptimeMonth": "84.50%",
+    "uptimeYear": "84.50%",
     "time": 746,
     "timeDay": 746,
     "timeWeek": 746,
     "timeMonth": 746,
     "timeYear": 746,
-    "dailyMinutesDown": {}
+    "dailyMinutesDown": {
+      "2026-05-15": 2
+    }
   }
 ]
