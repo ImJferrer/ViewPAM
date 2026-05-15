@@ -1,5 +1,5 @@
 owner: ImJferrer
-repo: /ViewPAM
+repo: ViewPAM
 
 sites:
   - name: PAM - Server
@@ -9,3 +9,4 @@ status-website:
   name: Estado del sistema
   introTitle: "Estado del servidor"
   introMessage: "Monitoreo automático del sistema"
+  baseUrl: /ViewPAM
