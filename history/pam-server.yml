@@ -1,7 +1,7 @@
-url: $secrets.HEALTH_URL
+url: ${{HEALTH_URL}}
 status: down
 code: 0
 responseTime: 0
-lastUpdated: 2026-05-15T21:54:35.550Z
+lastUpdated: 2026-05-15T21:59:30.858Z
 startTime: 2026-05-15T21:20:28.119Z
 generator: Upptime <https://github.com/upptime/upptime>
