@@ -1,0 +1,46 @@
+name: Server Alert
+
+on:
+  schedule:
+    - cron: "*/30 * * * *"
+
+jobs:
+
+  notify:
+
+    runs-on: ubuntu-latest
+
+    steps:
+
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Install dependencies
+        run: npm install firebase-admin
+
+      - name: Install jq
+        run: sudo apt-get install jq
+
+      - name: Check server status
+        id: check_status
+
+        run: |
+      
+          STATUS=$(curl -s https://imjferrer.github.io/ViewPAM/api/pam-server/uptime.json | jq -r '.status')
+      
+          echo "status=$STATUS" >> $GITHUB_OUTPUT
+
+
+      - name: Create Firebase JSON
+      
+        if: ${{ steps.check_status.outputs.status == 'down' }}
+      
+        run: |
+      
+          echo '${{ secrets.FIREBASE_SERVICE_ACCOUNT }}' > firebase-service-account.json
+      
+      - name: Send notification
+      
+        if: ${{ steps.check_status.outputs.status == 'down' }}
+      
+        run: node sendNotification.js
