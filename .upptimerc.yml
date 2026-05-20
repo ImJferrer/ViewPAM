@@ -3,7 +3,7 @@ repo: ViewPAM
 
 sites:
   - name: PAM - Server
-    url: https://zeus.fiberlux.pe/
+    url: https://zeus.fiberlux.pe/1
 
 status-website:
   name: Estado del sistema
