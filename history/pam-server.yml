@@ -1,7 +1,7 @@
-url: https://zeus.fiberlux.pe/
-status: up
-code: 200
-responseTime: 750
-lastUpdated: 2026-05-20T06:52:12.761Z
+url: https://zeus.fiberlux.pe/1
+status: down
+code: 404
+responseTime: 513
+lastUpdated: 2026-05-20T06:55:12.427Z
 startTime: 2026-05-15T21:20:28.119Z
 generator: Upptime <https://github.com/upptime/upptime>
