@@ -1,7 +1,7 @@
-url: https://zeus.fiberlux.pe/health
-status: down
-code: 404
-responseTime: 632
-lastUpdated: 2026-05-20T00:58:06.950Z
+url: https://zeus.fiberlux.pe/
+status: up
+code: 200
+responseTime: 998
+lastUpdated: 2026-05-20T01:02:54.096Z
 startTime: 2026-05-15T21:20:28.119Z
 generator: Upptime <https://github.com/upptime/upptime>
